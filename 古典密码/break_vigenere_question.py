@@ -94,6 +94,7 @@ frequencies = []
 for i in range(length_of_key):
     frequencies.append([0]*26)
 # TODO
+
 ciphertext = ciphertext.upper()
 for j in range(length_of_key):
     for char in ciphertext[j::length_of_key]:
